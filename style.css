@@ -8,6 +8,11 @@ header {
   background-size: cover;
   text-align: center;
 }
+
+.nav-media {
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -67,9 +72,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-padding: 20px;
-
-
+  padding: 20px;
 }
 .gradient input {
   height: 47px;
@@ -96,7 +99,6 @@ padding: 20px;
   color: rgb(149, 149, 149);
   border-right: 1px solid rgb(203, 200, 200);
   flex-grow: 2;
-
 }
 .voyageur {
   height: 47px;
@@ -108,7 +110,6 @@ padding: 20px;
   color: rgb(149, 149, 149);
   border-right: 1px solid rgb(203, 200, 200);
   flex-grow: 1;
-
 }
 .rechercher {
   height: 47px;
@@ -118,7 +119,6 @@ padding: 20px;
   width: 140px;
   background-color: #ee3f45;
   flex-grow: 1;
-
 }
 .rechercher a {
   text-decoration: none;
@@ -191,6 +191,7 @@ padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   margin-top: 100px;
 }
 .tex h2 {
@@ -206,10 +207,8 @@ padding: 20px;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .Lille {
   width: 300px;
-
   height: 350px;
   margin: 13px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/lille.jpg);
@@ -220,10 +219,8 @@ padding: 20px;
   color: white;
   flex-grow: 1;
 }
-
 .Londres {
   width: 300px;
-
   height: 350px;
   margin: 13px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/londres.jpg);
@@ -233,30 +230,25 @@ padding: 20px;
   justify-content: center;
   color: white;
   flex-grow: 1;
-
 }
-
 .Bruxelles {
-width: 300px;
+  width: 300px;
   height: 350px;
   margin: 13px;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/bruxelles.jpg);
   background-size: cover;
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-flex-grow: 1;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-grow: 1;
 }
-
-
 .explorer {
   width: 88%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   color: #565A5C;
   padding-bottom: 50px;
 }
@@ -293,62 +285,78 @@ flex-grow: 1;
 .row1 {
   display: flex;
   justify-content: space-between;
-  height: 300px;
-  padding-bottom: 20px;
+  flex-wrap: wrap;
+
 }
 .row2 {
   display: flex;
   justify-content: space-between;
-  height: 300px;
-  padding-bottom: 20px;
+  flex-wrap: wrap;
+
 }
 .petit {
-  width: 38%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  flex-grow: 1;
+  margin: 10px;
+  min-width: 270px;
+  height: 300px;
 
 }
 .grand {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ams.jpeg);
-  width: 60%;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  flex-grow: 2;
+  margin: 10px;
+  min-width: 270px;
+  height: 300px;
+
 }
 .left {
-  width: 30%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  flex-grow: 1;
+  margin: 10px;
+  height: 300px;
+  min-width: 270px;
 
 }
 .middle {
-  width: 30%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  flex-grow: 1;
+  margin: 10px;
+  height: 300px;
+  min-width: 270px;
 
 }
 .right {
-  width: 36%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  flex-grow: 1;
+  margin: 10px;
+  height: 300px;
+  min-width: 270px;
 
 }
 .chez {
@@ -363,7 +371,6 @@ flex-grow: 1;
   align-items: center;
   flex-direction: column;
   text-align: center;
-
 }
 .chez a {
   background-color: rgba(255, 255, 255, 0.5);
@@ -382,6 +389,7 @@ flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .communauté h2 {
   padding: 50px;
@@ -406,7 +414,7 @@ flex-grow: 1;
   width: 250px;
   margin: 10px;
   max-width: 450px;
-text-align: center;
+  text-align: center;
 }
 .photo2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/portrait.jpeg);
@@ -414,14 +422,13 @@ text-align: center;
   flex-grow: 1;
   width: 250px;
   margin: 10px;
-max-width: 450px;
+  max-width: 450px;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   text-align: center;
-
 }
 .photo3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/obama.jpg);
@@ -430,14 +437,12 @@ max-width: 450px;
   width: 250px;
   margin: 10px;
   max-width: 450px;
-
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   text-align: center;
-
 }
 .photo4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/hollande.jpg);
@@ -446,16 +451,13 @@ max-width: 450px;
   width: 250px;
   margin: 10px;
   max-width: 450px;
-
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   text-align: center;
-
 }
-
 .photo1 p {
   padding-bottom: 20px;
   color: white;
@@ -466,19 +468,17 @@ max-width: 450px;
   color: white;
   font-size: 0.7em;
   margin-bottom: 5px;
-
 }
 .photo3 p {
   padding-bottom: 20px;
   color: white;
   font-size: 0.7em;
-margin-bottom: 5
+  margin-bottom: 5
 }
 .photo4 p {
   padding-bottom: 20px;
   color: white;
   font-size: 0.7em;
-
 }
 .photo1 h1 {
   color: white;
@@ -489,10 +489,9 @@ margin-bottom: 5
 .photo3 h1 {
   color: white;
 }
-.photo4 h1{
+.photo4 h1 {
   color: white;
 }
-
 .footer {
   height: 550px;
   width: 100%;
@@ -502,16 +501,10 @@ margin-bottom: 5
   align-items: center;
   color: white;
 }
-
-
-
 .buttoon {
-
   display: flex;
   flex-direction: column;
-
 }
-
 .mili {
   display: flex;
   justify-content: space-around;
@@ -519,19 +512,15 @@ margin-bottom: 5
   width: 60%;
   margin-top: 40px;
 }
-
 .mili a {
   text-decoration: none;
-color: white;
-font-size: 0.7em;
-
+  color: white;
+  font-size: 0.7em;
 }
-
 .mili h4 {
   margin-bottom: 10px;
   font-size: 0.8em;
 }
-
 .buttoon a {
   margin-bottom: 15px;
   color: white;
@@ -545,22 +534,20 @@ font-size: 0.7em;
   padding-left: 15px;
   font-size: 0.9em;
 }
-
 .decouvrir {
   width: 130px;
-}
+  padding-left: 10px;
 
+}
 .societe {
   width: 130px;
-
+  padding-left: 10px;
 }
-
 .hebergement {
   width: 130px;
+  padding-left: 10px;
 
 }
-
-
 .link {
   margin-top: 40px;
   display: flex;
@@ -568,24 +555,20 @@ font-size: 0.7em;
   align-items: center;
   border-top: 1px solid rgb(84, 83, 83);
   width: 70%;
-
+  text-align: center;
 }
-
 .link h4 {
   margin: 20px;
 }
-
 .icone {
   display: flex;
   justify-content: center;
 }
-
 .link p {
   margin-top: 20px;
   font-size: 0.7em;
   color: rgb(108, 106, 106);
 }
-
 .icone i {
   padding: 20px;
   margin: 5px;
@@ -596,4 +579,78 @@ font-size: 0.7em;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+.societe {
+display: none;
+}
+
+.decouvrir {
+  display: none;
+
+}
+
+.hebergement {
+  display: none;
+
+}
+
+.buttoon  {
+  width: 100%;
+}
+
+.buttoon a {
+  width: 100%;
+}
+
+.nav-right {
+  display: none;
+}
+
+.nav-media {
+  display: flex;
+  justify-content: center;
+}
+.nav-media a {
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  height: 30px;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .icone i {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid rgb(84, 83, 83);
+    border-radius: 50% 50%;
+    width: 1px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .icone {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
 }
