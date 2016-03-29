@@ -1,0 +1,731 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+header {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/header.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.nav-media {
+  display: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  padding: 10px;
+}
+.navbar img {
+  width: 120px;
+  height: 37px;
+}
+.nav-right {
+  display: flex;
+}
+.nav-right a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-right ul{
+  display: flex;
+justify-content: center;
+list-style-type: none;
+}
+
+
+
+.focus input {
+  height: 50px;
+}
+
+.focus ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.focus li {
+  border-bottom: 1px solid rgb(210, 210, 210);
+  height: 50px;
+  width: 300px;
+  align-items: center;
+}
+
+.focus p {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  rgb(96, 93, 93)
+}
+
+.focus h5 {
+border-bottom: 1px solid rgb(210, 210, 210);
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(200, 200, 200);
+}
+
+.focus {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+}
+
+.aide {
+  position: relative;
+}
+
+.nav-right li {
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.border {
+  border: 1px solid white;
+  height: 27px;
+}
+
+
+.bienvenue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  color: white;
+}
+.bienvenue a {
+  width: 180px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-bottom: 156px;
+}
+.bienvenue h1 {
+  font-size: 3.7em;
+  margin-bottom: 10px;
+}
+.bienvenue h2 {
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+.gradient {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.gradient input {
+  height: 47px;
+  width: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: 1px solid rgb(203, 200, 200);
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  flex-grow: 2;
+}
+.AD {
+  height: 47px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgb(149, 149, 149);
+  border-right: 1px solid rgb(203, 200, 200);
+  flex-grow: 2;
+}
+.voyageur {
+  height: 47px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgb(149, 149, 149);
+  border-right: 1px solid rgb(203, 200, 200);
+  flex-grow: 1;
+}
+.rechercher {
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  background-color: #ee3f45;
+  flex-grow: 1;
+}
+.rechercher a {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  background-color: #EDEFED;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.vivez {
+  width: 88%;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tof {
+  height: 370px;
+  min-width: 65%;
+  background-image: url(images/vivez.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  flex-grow: 2;
+}
+.txt {
+  min-width: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #565A5C;
+  flex-grow: 1
+}
+.txt p {
+  margin: 15px;
+  font-weight: bolder;
+}
+.txt h2 {
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+.txt a {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  background-color: #ee3f45;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 2px;
+}
+#para {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 0.75em;
+}
+.tex {
+  color: #565A5C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.tex h2 {
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.tex p {
+  margin-bottom: 40px;
+}
+.flex {
+  width: 91%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Lille {
+  width: 300px;
+  height: 350px;
+  margin: 13px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/lille.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-grow: 1;
+}
+.Londres {
+  width: 300px;
+  height: 350px;
+  margin: 13px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/londres.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-grow: 1;
+}
+.Bruxelles {
+  width: 300px;
+  height: 350px;
+  margin: 13px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/bruxelles.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-grow: 1;
+}
+.explorer {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #565A5C;
+  padding-bottom: 50px;
+}
+.explorer h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+.explorer p {}
+.explorer a {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  background-color: rgb(244, 244, 244);
+  text-decoration: none;
+  color: #565A5C;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid rgb(177, 173, 173);
+}
+.contaner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.photo {
+  width: 84%;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.petit {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-grow: 1;
+  margin: 10px;
+  min-width: 270px;
+  height: 300px;
+}
+.grand {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-grow: 2;
+  margin: 10px;
+  min-width: 270px;
+  height: 300px;
+}
+.left {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-grow: 1;
+  margin: 10px;
+  height: 300px;
+  min-width: 270px;
+}
+.middle {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-grow: 1;
+  margin: 10px;
+  height: 300px;
+  min-width: 270px;
+}
+.right {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-grow: 1;
+  margin: 10px;
+  height: 300px;
+  min-width: 270px;
+}
+
+#Bordeaux {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/bordeaux.jpg);
+background-size: cover;
+}
+#Paris {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/18.jpg);
+background-size: cover;
+}
+#Newyork {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/nyc.jpg);
+background-size: cover;
+}
+#Biarritz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/surf.jpg);
+background-size: cover;
+}
+#Venise {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/romantism.jpg);
+background-size: cover;
+}
+#Lisbonne {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/lisbonne.jpg);
+background-size: cover;
+}
+#Berlin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/berlin.jpg);
+background-size: cover;
+}
+#Amsterdam {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/amsterdam.jpg);
+background-size: cover;
+}
+#Rome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/rome.jpg);
+background-size: cover;
+}
+#Croatie {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/croatia.jpg);
+background-size: cover;
+background-position: 50% 50%;
+}
+
+.chez {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(images/img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.chez a {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100px;
+  height: 100px;
+  border-radius: 50% 50%;
+  margin-top: 50px;
+}
+.chez h1 {
+  font-size: 3em;
+}
+.chez p {
+  font-size: 1.2em;
+}
+.communauté {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.communauté h2 {
+  padding: 50px;
+  color: #565A5C;
+}
+.chiant {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+
+.photo1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/velo2.jpg);
+  background-size: cover;
+  height: 400px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 250px;
+  margin: 10px;
+  max-width: 450px;
+  text-align: center;
+}
+
+.photo2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/alicechris.jpg);
+  height: 400px;
+  flex-grow: 1;
+  width: 250px;
+  margin: 10px;
+  max-width: 450px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+.photo3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/entreprise.jpg);
+  height: 400px;
+  flex-grow: 1;
+  width: 250px;
+  margin: 10px;
+  max-width: 450px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+.photo4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/nina.jpg);
+  height: 400px;
+  flex-grow: 1;
+  width: 250px;
+  margin: 10px;
+  max-width: 450px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+.photo1 p {
+  padding-bottom: 20px;
+  color: white;
+  font-size: 0.8em;
+}
+.photo2 p {
+  padding-bottom: 20px;
+  color: white;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+.photo3 p {
+  padding-bottom: 20px;
+  color: white;
+  font-size: 0.8em;
+  margin-bottom: 5
+}
+.photo4 p {
+  padding-bottom: 20px;
+  color: white;
+  font-size: 0.8em;
+}
+.photo1 h1 {
+  color: white;
+}
+.photo2 h1 {
+  color: white;
+}
+.photo3 h1 {
+  color: white;
+}
+.photo4 h1 {
+  color: white;
+}
+.footer {
+  height: 550px;
+  width: 100%;
+  background-color: #2B2D2E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.buttoon {
+  display: flex;
+  flex-direction: column;
+}
+.mili {
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.7;
+  width: 60%;
+  margin-top: 40px;
+}
+.mili a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.7em;
+}
+.mili h4 {
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+.buttoon a {
+  margin-bottom: 15px;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  background-color: #565A5C;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 15px;
+  font-size: 0.9em;
+}
+.decouvrir {
+  width: 130px;
+  padding-left: 10px;
+}
+.societe {
+  width: 130px;
+  padding-left: 10px;
+}
+.hebergement {
+  width: 130px;
+  padding-left: 10px;
+}
+.link {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgb(84, 83, 83);
+  width: 70%;
+  text-align: center;
+}
+.link h4 {
+  margin: 20px;
+}
+.icone {
+  display: flex;
+  justify-content: center;
+}
+.link p {
+  margin-top: 20px;
+  font-size: 0.7em;
+  color: rgb(108, 106, 106);
+}
+.icone i {
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid rgb(84, 83, 83);
+  border-radius: 50% 50%;
+  width: 1px;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 640px) {
+  .societe {
+    display: none;
+  }
+  .decouvrir {
+    display: none;
+  }
+  .hebergement {
+    display: none;
+  }
+  .buttoon {
+    width: 100%;
+  }
+  .buttoon a {
+    width: 100%;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-media {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-media a {
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .icone i {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid rgb(84, 83, 83);
+    border-radius: 50% 50%;
+    width: 1px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .icone {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
