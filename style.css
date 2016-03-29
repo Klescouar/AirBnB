@@ -8,11 +8,9 @@ header {
   background-size: cover;
   text-align: center;
 }
-
 .nav-media {
   display: none;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -29,15 +27,77 @@ header {
 .nav-right a {
   text-decoration: none;
   color: white;
-  width: 120px;
-  font-size: 0.9em;
+  width: 100px;
+  font-size: 0.7em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.border {
-  border: 2px solid white;
+
+.nav-right ul{
+  display: flex;
+justify-content: center;
+list-style-type: none;
 }
+
+
+
+.focus input {
+  height: 50px;
+}
+
+.focus ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.focus li {
+  border-bottom: 1px solid rgb(210, 210, 210);
+  height: 50px;
+  width: 300px;
+  align-items: center;
+}
+
+.focus p {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  rgb(96, 93, 93)
+}
+
+.focus h5 {
+border-bottom: 1px solid rgb(210, 210, 210);
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(200, 200, 200);
+}
+
+.focus {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+}
+
+.aide {
+  position: relative;
+}
+
+.nav-right li {
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.border {
+  border: 1px solid white;
+  height: 27px;
+}
+
+
 .bienvenue {
   display: flex;
   flex-direction: column;
@@ -286,17 +346,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 .row2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 .petit {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
-  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -305,11 +362,9 @@ header {
   margin: 10px;
   min-width: 270px;
   height: 300px;
-
 }
 .grand {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ams.jpeg);
-  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -318,11 +373,9 @@ header {
   margin: 10px;
   min-width: 270px;
   height: 300px;
-
 }
 .left {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
-  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,11 +384,9 @@ header {
   margin: 10px;
   height: 300px;
   min-width: 270px;
-
 }
 .middle {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
-  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,11 +395,9 @@ header {
   margin: 10px;
   height: 300px;
   min-width: 270px;
-
 }
 .right {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/ny.jpeg);
-  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -357,8 +406,50 @@ header {
   margin: 10px;
   height: 300px;
   min-width: 270px;
-
 }
+
+#Bordeaux {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/bordeaux.jpg);
+background-size: cover;
+}
+#Paris {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/18.jpg);
+background-size: cover;
+}
+#Newyork {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/nyc.jpg);
+background-size: cover;
+}
+#Biarritz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/surf.jpg);
+background-size: cover;
+}
+#Venise {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/romantism.jpg);
+background-size: cover;
+}
+#Lisbonne {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/lisbonne.jpg);
+background-size: cover;
+}
+#Berlin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/berlin.jpg);
+background-size: cover;
+}
+#Amsterdam {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/amsterdam.jpg);
+background-size: cover;
+}
+#Rome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/rome.jpg);
+background-size: cover;
+}
+#Croatie {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/croatia.jpg);
+background-size: cover;
+background-position: 50% 50%;
+}
+
 .chez {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(images/img.jpg);
   background-size: cover;
@@ -402,8 +493,10 @@ header {
   padding-bottom: 10px;
   flex-wrap: wrap;
 }
+
+
 .photo1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/bush.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/velo2.jpg);
   background-size: cover;
   height: 400px;
   flex-grow: 1;
@@ -416,8 +509,9 @@ header {
   max-width: 450px;
   text-align: center;
 }
+
 .photo2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/portrait.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/alicechris.jpg);
   height: 400px;
   flex-grow: 1;
   width: 250px;
@@ -431,7 +525,7 @@ header {
   text-align: center;
 }
 .photo3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/obama.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/entreprise.jpg);
   height: 400px;
   flex-grow: 1;
   width: 250px;
@@ -445,7 +539,7 @@ header {
   text-align: center;
 }
 .photo4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/hollande.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(images/nina.jpg);
   height: 400px;
   flex-grow: 1;
   width: 250px;
@@ -461,24 +555,24 @@ header {
 .photo1 p {
   padding-bottom: 20px;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 .photo2 p {
   padding-bottom: 20px;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.8em;
   margin-bottom: 5px;
 }
 .photo3 p {
   padding-bottom: 20px;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.8em;
   margin-bottom: 5
 }
 .photo4 p {
   padding-bottom: 20px;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 .photo1 h1 {
   color: white;
@@ -537,7 +631,6 @@ header {
 .decouvrir {
   width: 130px;
   padding-left: 10px;
-
 }
 .societe {
   width: 130px;
@@ -546,7 +639,6 @@ header {
 .hebergement {
   width: 130px;
   padding-left: 10px;
-
 }
 .link {
   margin-top: 40px;
@@ -580,58 +672,44 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 @media screen and (max-width: 640px) {
-.societe {
-display: none;
+  .societe {
+    display: none;
+  }
+  .decouvrir {
+    display: none;
+  }
+  .hebergement {
+    display: none;
+  }
+  .buttoon {
+    width: 100%;
+  }
+  .buttoon a {
+    width: 100%;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-media {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-media a {
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
 }
-
-.decouvrir {
-  display: none;
-
-}
-
-.hebergement {
-  display: none;
-
-}
-
-.buttoon  {
-  width: 100%;
-}
-
-.buttoon a {
-  width: 100%;
-}
-
-.nav-right {
-  display: none;
-}
-
-.nav-media {
-  display: flex;
-  justify-content: center;
-}
-.nav-media a {
-  text-decoration: none;
-  color: white;
-  width: 120px;
-  height: 30px;
-  font-size: 0.9em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-}
-
-
-
-}
-
 @media screen and (max-width: 400px) {
   .icone i {
     padding: 20px;
@@ -645,12 +723,9 @@ display: none;
     align-items: center;
     flex-grow: 1;
   }
-
   .icone {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-
-
 }
